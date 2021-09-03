@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  background: #000;
+}
+
+.App {
+  width: 100%;
+  background: #000;
+}
+
+img {
+  height: 65vh;
+}
+
+h1,
+h4,
+nav {
+  height: 9vh;
+}
+
+nav {
+  cursor: pointer;
+}
+
+form {
+  display: inline-flex;
+  align-items: flex-start;
+}
